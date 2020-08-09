@@ -1,6 +1,6 @@
 # CITISEN
 
-[![Watch the video](https://i.imgur.com/JiJ9rM5.png)](http://www.youtube.com/watch?v=BiPQCd7h0NU)
+[![Watch the video](https://i.imgur.com/pX0m9pm.png)](http://www.youtube.com/watch?v=BiPQCd7h0NU)
 
 
 ## Introduction
