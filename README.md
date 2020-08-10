@@ -12,8 +12,8 @@ In this work, we present a deep-learning-based speech signal processing mobile a
 ## Paper 
 * See [Paper] for more detail. 
 
-## Results and deom
-
+## Results and demo
+* You can listen to some samples on the [Demo webpage].
 
 ## Citations
 
