@@ -18,8 +18,7 @@ In this work, we present a deep-learning-based speech signal processing mobile a
 ## Citations
 
 ## License
-The CITISEN work is released under MIT License.
-See LICENSE for more details.
+* The CITISEN work is released under MIT License. See LICENSE for more details.
 
 ## Acknowledgments
 * [Bio-ASP Lab](https://bio-asplab.citi.sinica.edu.tw), CITI, Academia Sinica, Taipei, Taiwan
