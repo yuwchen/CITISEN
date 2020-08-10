@@ -14,7 +14,6 @@ In this work, we present a deep-learning-based speech signal processing mobile a
 
 ## Results and deom
 
-[enhanced](./results/FCN_addcar_g4_21_01.wav)
 
 ## Citations
 
