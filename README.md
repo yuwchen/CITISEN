@@ -56,7 +56,7 @@ The "Recording" page is for users to record speech and noise of the current envi
 
 ## Download
 * [Download](https://drive.google.com/file/d/134U1Pnkq3VEtTBtK-6Ykhz0gaE2aR_mk/view?usp=sharing) CITISEN apk for Android.
-* [Download]() CITISEN for iOS.
+* [Download] CITISEN for iOS.
 
 ## Paper 
 * See [Paper] for more detail. 
