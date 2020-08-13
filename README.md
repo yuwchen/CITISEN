@@ -1,5 +1,5 @@
 # CITISEN
-<a href="https://www.youtube.com/watch?v=BUfY64TCXi4&feature=youtu.be" target="_blank"><img src="https://i.imgur.com/pX0m9pm.png" 
+<a href="https://www.youtube.com/watch?v=BUfY64TCXi4&feature=youtu.be" target="_blank"><img src="https://i.imgur.com/HoWUcZN.png" 
 alt="CITISEN video"  width=80% height=80% border="10" text-align: center /></a>
 
 
