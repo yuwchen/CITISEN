@@ -69,7 +69,7 @@ The "Recording" page is for users to record speech and noise of the current envi
 ## Citations
 @misc{alex2020citisen,  
   title={CITISEN: A Deep Learning-Based Speech Signal-Processing Mobile Application},  
-  author={Alexander Chao-Fu Kang and Kuo-Hsuan Hung and Yu-Wen Chen and You-Jin Li and Ya-Hsin Lai and Kai-Chun Liu and Sze-Wei Fu and Syu-Siang Wang and Yu Tsao}, 
+  author={Alexander Chao-Fu Kang and Kuo-Hsuan Hung and Yu-Wen Chen and You-Jin Li and Ya-Hsin Lai and Kai-Chun Liu and Sze-Wei Fu and Syu-Siang Wang and Yu Tsao},   
   year={2020},  
   eprint={2008.09264},  
   archivePrefix={arXiv},  
