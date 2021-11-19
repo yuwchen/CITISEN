@@ -55,7 +55,13 @@ The "Recording" page is for users to record speech and noise of the current envi
  
 
 ## Download
-* [Download](https://www.dropbox.com/s/dsrpxz4z5q4c9j6/denoiser_pytorch.apk) CITISEN apk for Android.
+
+* Download apk for Android.
+
+| LinkA  | Link B| 
+|:------:|------:| 
+| [google_drive](https://www.dropbox.com/s/dsrpxz4z5q4c9j6/denoiser_pytorch.apk)|[dropbox](https://www.dropbox.com/s/dsrpxz4z5q4c9j6/denoiser_pytorch.apk)|
+
 <img src="https://github.com/yuwchen/CITISEN/blob/master/images/CITISEN_qrcode.png" alt="main"  width=25% height=25% />
 
 * [Download] CITISEN for iOS.
