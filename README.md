@@ -87,3 +87,9 @@ The "Recording" page is for users to record speech and noise of the current envi
 
 ## Acknowledgments
 * [Bio-ASP Lab](https://bio-asplab.citi.sinica.edu.tw), CITI, Academia Sinica, Taipei, Taiwan
+
+<style>
+    table {
+        width: 100%;
+    }
+</style>
