@@ -60,7 +60,7 @@ The "Recording" page is for users to record speech and noise of the current envi
 
 || Google drive | Dropbox | 
 |:------:|:------:|:------:| 
-|URL| [links](https://drive.google.com/file/d/1huUsUH0oyN8JmURcMMaeLq4EXMEsqFy-/view)|[links](https://www.dropbox.com/s/dsrpxz4z5q4c9j6/denoiser_pytorch.apk)|
+|URL| [links](https://drive.google.com/file/d/1FyfM3gcELodCzqN3zodJXp4hRjGQS4oF/view)|[links](https://www.dropbox.com/s/ljydb8afzpczaw2/denoiser_pytorch_211122.apk)|
 |QR code |<img src="https://github.com/yuwchen/CITISEN/blob/master/images/CITISEN_qrcode_google.png" alt="main"  width=25% height=25% />|<img src="https://github.com/yuwchen/CITISEN/blob/master/images/CITISEN_qrcode.png" alt="main"  width=25% height=25% />|
   
 * [Download] CITISEN for iOS.
