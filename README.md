@@ -10,7 +10,7 @@ In this work, we present a deep learning-based speech signal-processing mobile a
 ## User interface and usage
 
 ### Four main pages in CITISEN
-<img src="https://github.com/yuwchen/CITISEN/blob/master/images/app_main.pdf" 
+<img src="https://github.com/yuwchen/CITISEN/blob/master/images/app_main.png" 
 alt="main"  width=60% height=60% />
 
 The CITISEN application has four pages, "Speech Enhancement", "Acoustic Scene Conversion", "Model Adaptation", and "Recording". The page name and the navigator buttons of each page are listed on the top-left and bottom in the application, respectively.
