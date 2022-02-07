@@ -11,49 +11,52 @@ In this work, we present a deep learning-based speech signal-processing mobile a
 
 ### Four main pages in CITISEN
 <img src="https://github.com/yuwchen/CITISEN/blob/master/images/app_main.png" 
-alt="main"  width=60% height=60% />
+alt="main"  width=50% height=50% />
 
-The CITISEN application has four pages, "Speech Enhancement", "Acoustic Scene Conversion", "Model Adaptation", and "Recording". The page name and the navigator buttons of each page are listed on the top-left and bottom in the application, respectively.
+The CITISEN application has four pages, "Speech Enhancement", "Background Noise Conversion", "Model Adaptation", and "Recording". The page name and the navigator buttons of each page are listed on the top-left and bottom in the application, respectively.
+
 
 ### Speech Enhancement page
-<img src="https://github.com/yuwchen/CITISEN/blob/master/images/SE.png" 
-alt="main"  width=60% height=60% />
+<img src="https://github.com/yuwchen/CITISEN/blob/master/images/app_SE.png" 
+alt="main"  width=50% height=50% />
 
-For the "Speech Enhancement" page, a user first specify his/her gender identity. Then, by pressing the "SE Model Switch" button, the user can select one suitable SE models from a listed of saved models. CITISEN provides several default SE models trained using our own collected speech data sets. Users can also run MA to prepare adapted SE models and save them as new SE models. Then, by pressing the SE button, the noisy speech is then transformed to clean one online.
+The “gender” button on the upper-right corner is used to specify the user’s gender. By pressing the “model switch” button, an SE model list will pop up, and users can change the SE model. After pressing the “preview” button, users will hear their original instant recording, and after pressing the “activate” button, users will hear their enhanced instant recording.
 
-### Acoustic Scene Conversion page
-<img src="https://github.com/yuwchen/CITISEN/blob/master/images/ASC.png" 
-alt="main"  width=60% height=60% />
+### Background Noise Conversion page
 
-In the "Acoustic Scene Conversion" page, CITISEN mixes acoustic scene on enhanced speech to generate new speech signals with converted acoustic scene. The "Acoustic Scene Conversion" page has a "Record Noise" button, by which users can record and save noise signals for ASC. Meanwhile, the page has a volume bar by which allows users to adjust the volume of background noise and accordingly specify the SNR level of converted speech. To change the acoustic scenes, users first press “SE Model Switch” button to select an SE model. Then, by pressing “Background Noise Switch” button, as shown in the left side, and an acoustic scene selection window will pop up and list all acoustic scene options, as shown in the right side. Users can select the target scene for ASC, and the speech with converted scene will be generated accordingly.
 
-### Model Adaptation page
-<img src="https://github.com/yuwchen/CITISEN/blob/master/images/MA.png" 
-alt="main"  width=60% height=60% />
+<img src="https://github.com/yuwchen/CITISEN/blob/master/images/app_BNC.png" 
+alt="main"  width=50% height=50% />
 
-There are two file upload buttons: "Record Noise" and "Record Speech", as shown in the left side. By pressing one of these two buttons, users can record pure noise or speaker speech signals and upload the recorded audio to our server. To start recording, users could simply press on one of the buttons, as shown in left side. Once finishing recording, by pressing the button again, CITISEN will pop up a submitting window, as shown in right side. The submitting window will ask the user to name the audio file, and the audio will be sent to the server. After receiving the audio file, the server will estimate an adapted SE model by fine-tuning the original SE model using the recorded audio data. The name of the audio file will also be used to name the adapted SE model, which is later sent from the server to mobile device and appears in the "Speech Enhancement" and "Acoustic Scene Conversion" pages. Accordingly, users can run SE and ASC functions using the adapted SE model.
+By pressing the “sound switch” button, a background noise list will pop up. After pressing the “record noise” button, users can record and save a new noise signal. After pressing the “activate” button, users will hear the enhanced instant recording with the specified background noise. Note that the “gender” button and the “model switch” button have the same function as those in the “speech enhancement” page.
+
+### Uploading page
+
+<img src="https://github.com/yuwchen/CITISEN/blob/master/images/app_uploading.png" 
+alt="main"  width=50% height=50% />
+
+The “uploading” page is used for uploading the data for the Model Adaptation function. As CITISEN provides both unknown noise adaptation and new speaker adaptation, there are two file upload buttons: “record speech” and “record noise.” To start the recording, users can simply press one button. After finishing the recording by pressing the button again, CITISEN will pop up a submission window. Users can then name the audio file and upload the recorded audio to the server. 
 
 ### Recording page
 
-A. recording or loading saved audio files
+A. Recording page of CITISEN (Part I). A new audio file can be recorded after pressing the “record new” button. The file can then be named and saved in a pop-up submission window.
 
-<img src="https://github.com/yuwchen/CITISEN/blob/master/images/Rec.png" 
-alt="main"  width=60% height=60% />
+<img src="https://github.com/yuwchen/CITISEN/blob/master/images/app_recording_a.png" 
+alt="main"  width=50% height=50% />
 
-B. selecting a model to perform SE
+B. Recording page of CITISEN (Part II). By pressing the “choose file” button, users can choose an audio file on a pop-up window.
 
-<img src="https://github.com/yuwchen/CITISEN/blob/master/images/Recording3.png" 
-alt="main"  width=60% height=60% />
+<img src="https://github.com/yuwchen/CITISEN/blob/master/images/app_recording_b.png" 
+alt="main"  width=50% height=50% />
 
-C. demonstrating the processed speech by spectrogram plots
+C. Recording page of CITISEN (Part III). Users can choose an SE model type and an SE model by using the “gender” and “model switch” button. In addition, users can evaluate the SE results visually and aurally.
 
-<img src="https://github.com/yuwchen/CITISEN/blob/master/images/Recording2.png" 
-alt="main"  width=60% height=60% />
+<img src="https://github.com/yuwchen/CITISEN/blob/master/images/app_recording_c.png" 
+alt="main"  width=50% height=50% />
 
 
-The "Recording" page is for users to record speech and noise of the current environment and also save the enhanced or converted audio files. For the "Speech Enhancement" and "Acoustic Scene Conversion" pages, users can immediately listen to enhanced or converted speech online. On the other hand, the "Recording" page allows users to save and playback later on the processed audio files. Users first record (upper path in Fig. A) or load an existing (bottom path in Fig. A) audio file and then press on the "SE Model Switch" button. Then, an SE model selection window will pop up, as shown on the right of Fig. B. By selecting a suitable SE model and then pressing on run button (as shown on left side of Fig. B), enhanced speech will be generated. CITISEN has the function to demonstrate two spectrogram plots: noisy and enhanced speech spectrogram plots (as shown on right side of Fig. C), so that users can visually check the SE results. In addition to these two plots, users can press "Play" and "Stop" buttons, on top of spectrogram plots, to play and listen the original and processed audio files.
- 
- 
+The “recording” page supports classic recording and SE model evaluation. Specifically, on the “recording” page, users can save, playback, and run SE on a saved speech signal. First, users can record new audio by pressing the “record new” button, and CITISEN will redirect to a processing page. After finishing the recording by pressing the “stop” button, users can name and save the record. The workflow is shown in Fig. A. Then, users can choose an audio file, a model mode, and an SE model with the “choose file,” “gender,” and “model switch” buttons, respectively. Finally, by pressing the “run” button, an enhanced speech signal is generated. Because CITISEN demonstrates both the noisy spectrogram and enhanced spectrogram, users can visually evaluate the SE results. In addition, users can aurally evaluate the results by pressing the “play” and “stop” buttons to listen to the original and the enhanced speech signals. An illustration showing more details about the “recording” page is shown in Fig. B and Fig. C. 
+
 
 ## Download
 
