@@ -4,12 +4,13 @@ alt="CITISEN video"  width=80% height=80% border="10" text-align: center /></a>
 
 
 ## Introduction
-In this work, we present a deep-learning-based speech signal processing mobile application, termed CITISEN, which supports three functions: speech enhancement (SE), acoustic scene conversion (ASC), and model adaptation (MA). For the SE function, CITISEN could effectively reduce noise components from speech signals and accordingly enhance their clarity and intelligibility. For the ASC function, CITISEN converts the current background sound to that sounds like a different background. Finally, the MA function in CITISEN can effectively adapt SE models with few audio files when encountering unknown speaker or unseen noise types; the adapted SE model is used to carry out enhancement on the upcoming noisy utterances. Experimental results have confirmed the effectiveness of these three functions in terms of objective evaluation and subjective listening tests. The promising results reveal that the developed CITISEN mobile application can be potentially used as a front-end processor for various speech-related services, such as voice communication, assertive hearing devices, and virtual reality headsets.
+In this work, we present a deep learning-based speech signal-processing mobile application known as CITISEN. The CITISEN can perform three functions: speech enhancement (SE), model adaptation (MA), and background noise conversion (BNC), which allow CITISEN to be used as a platform for utilizing and evaluating SE models and flexibly extend the models to address various noise environments and users. For SE, CITISEN downloads pretrained SE models on the cloud server and then uses these models to effectively reduce noise components from instant or saved recordings provided by users. When it encounters noisy speech signals with unknown speakers or noise types, the MA function allows CITISEN to improve the SE performance effectively. A few audio files of unseen speakers or noise types are recorded and uploaded to the cloud server and then used to adapt the pretrained SE model. Finally, for the BNC, CITISEN removes the original background noise using an SE model, and then mixes the processed speech signal with new background noise. The novel BNC function can evaluate SE performance under specific conditions, cover people’s tracks, and provide entertainment.
+
 
 ## User interface and usage
 
 ### Four main pages in CITISEN
-<img src="https://github.com/yuwchen/CITISEN/blob/master/images/main.png" 
+<img src="https://github.com/yuwchen/CITISEN/blob/master/images/app_main.pdf" 
 alt="main"  width=60% height=60% />
 
 The CITISEN application has four pages, "Speech Enhancement", "Acoustic Scene Conversion", "Model Adaptation", and "Recording". The page name and the navigator buttons of each page are listed on the top-left and bottom in the application, respectively.
