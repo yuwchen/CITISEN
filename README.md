@@ -76,14 +76,12 @@ The “recording” page supports classic recording and SE model evaluation. Spe
 * You can listen to some samples on the [Demo webpage](https://bio-asp-lab.github.io/CITISEN_demo/).
 
 ## Citations
-@misc{alex2020citisen,  
-  title={CITISEN: A Deep Learning-Based Speech Signal-Processing Mobile Application},  
-  author={Alexander Chao-Fu Kang and Kuo-Hsuan Hung and Yu-Wen Chen and You-Jin Li and Ya-Hsin Lai and Kai-Chun Liu and Sze-Wei Fu and Syu-Siang Wang and Yu Tsao},   
-  year={2020},  
-  eprint={2008.09264},  
-  archivePrefix={arXiv},  
-  primaryClass={eess.AS}  
-    }
+@ARTICLE{9718270,
+  author={Chen, Yu-Wen and Hung, Kuo-Hsuan and Li, You-Jin and Kang, Alexander Chao-Fu and Lai, Ya-Hsin and Liu, Kai-Chun and Fu, Sze-Wei and Wang, Syu-Siang and Tsao, Yu},
+  journal={IEEE Access}, 
+  title={CITISEN: A Deep Learning-Based Speech Signal-Processing Mobile Application}, 
+  year={2022},
+  doi={10.1109/ACCESS.2022.3153469}}
 
 
 ## License
