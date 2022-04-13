@@ -77,10 +77,10 @@ The “recording” page supports classic recording and SE model evaluation. Spe
 
 ## Citations
 @ARTICLE{9718270,
-  author={Chen, Yu-Wen and Hung, Kuo-Hsuan and Li, You-Jin and Kang, Alexander Chao-Fu and Lai, Ya-Hsin and Liu, Kai-Chun and Fu, Sze-Wei and Wang, Syu-Siang and Tsao, Yu},
-  journal={IEEE Access}, 
-  title={CITISEN: A Deep Learning-Based Speech Signal-Processing Mobile Application}, 
-  year={2022},
+  author={Chen, Yu-Wen and Hung, Kuo-Hsuan and Li, You-Jin and Kang, Alexander Chao-Fu and Lai, Ya-Hsin and Liu, Kai-Chun and Fu, Sze-Wei and Wang, Syu-  Siang and Tsao, Yu}, \
+  journal={IEEE Access}, \
+  title={CITISEN: A Deep Learning-Based Speech Signal-Processing Mobile Application}, \
+  year={2022},  \
   doi={10.1109/ACCESS.2022.3153469}}
 
 
