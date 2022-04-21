@@ -65,7 +65,7 @@ The “recording” page supports classic recording and SE model evaluation. Spe
 || Google drive | Dropbox | 
 |:------:|:------:|:------:| 
 |URL| [links](https://drive.google.com/file/d/1FyfM3gcELodCzqN3zodJXp4hRjGQS4oF/view)|[links](https://www.dropbox.com/s/0e9mmwua8bfau2f/denoiser_220413.apk)|
-|QR code |<img src="https://github.com/yuwchen/CITISEN/blob/master/images/CITISEN_qrcode_google.png" alt="main"  width=100% height=100% />|<img src="https://github.com/yuwchen/CITISEN/blob/master/images/qr.ioi.tw.png" alt="main"  width=25% height=25% />|
+|QR code |<img src="https://github.com/yuwchen/CITISEN/blob/master/images/CITISEN_qrcode_google.png" alt="main"  width=100% height=100% />|<img src="https://github.com/yuwchen/CITISEN/blob/master/images/qr.ioi.tw.png" alt="main"  width=30% height=30% />|
   
   
   
